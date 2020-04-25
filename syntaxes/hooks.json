@@ -1,6 +1,6 @@
 {
   "scopeName": "ak.injection",
-  "injectionSelector": "source",
+  "injectionSelector": "L:meta.function.arrow",
   "patterns": [
     {
       "include": "#hooks"

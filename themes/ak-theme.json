@@ -474,7 +474,7 @@
       }
     },
     {
-      "scope": ["token.debug-token", "extra.hook"],
+      "scope": ["token.debug-token"],
       "settings": {
         "foreground": "#b267e6"
       }
@@ -510,8 +510,15 @@
       "name": "Class",
       "scope": "variable.other.class",
       "settings": {
-        "foreground": "#75b621",
+        "foreground": "#f0c674",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Hooks",
+      "scope": "extra.hook",
+      "settings": {
+        "foreground": "#f0c674"
       }
     }
   ]

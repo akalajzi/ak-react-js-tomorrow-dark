@@ -1,0 +1,33 @@
+{
+  "name": "ak-reactjs-tomorrow-dark",
+  "displayName": "AK ReactJS Tomorrow Dark",
+  "description": "The only right way to look at stuff. Theme + some extra React grammar with hooks.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Themes",
+    "Programming Languages"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AK ReactJS Tomorrow Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ak-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "path": "./syntaxes/hooks.json",
+        "scopeName": "ak.injection",
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "scopeName": "ak.injection",
+  "injectionSelector": "source",
+  "patterns": [
+    {
+      "include": "#hooks"
+    }
+  ],
+  "repository": {
+    "hooks": {
+      "name": "extra.hook",
+      "match": "(?<!\\w)(use\\w+)"
+    }
+  }
+}
